@@ -2,7 +2,8 @@ chrome.runtime.onInstalled.addListener(function() {
   chrome.contextMenus.create({
     title: 'I\'m Feeling Lucky',
     contexts:['selection'],
-    id: 'feeling-lucky'})
+    id: 'feeling-lucky'
+  })
 })
 
 chrome.contextMenus.onClicked.addListener(function(info) {
