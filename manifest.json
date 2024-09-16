@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Lucky",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Search selected text using Google's I'm Feeling Lucky",
   "icons": {
     "16": "icon16.png",
