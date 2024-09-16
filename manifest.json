@@ -1,17 +1,17 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Lucky",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Search selected text using Google's I'm Feeling Lucky",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
-    },
+  },
   "author": "FallenMax@gmail.com",
   "permissions": ["contextMenus"],
   "background": {
-    "persistent": false,
-    "scripts": ["lucky.js"]
-  }
+    "service_worker": "lucky.js"
+  },
+  "action": {}
 }
